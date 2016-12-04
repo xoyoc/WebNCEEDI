@@ -1,0 +1,41 @@
+body{
+	color: white;
+}
+
+header{
+	color:#646362;
+}
+
+footer{
+	background-color: #1980B9;
+}
+
+/*Seccion de encabezado*/
+
+.encabezado-menu{
+	background-color: #1980B9;
+}
+
+.encabezado-logotipo{
+	height: 100px;
+	margin: .5em 0;
+}
+
+.items-menu>a{
+	text-transform: uppercase;
+	color:white;
+}
+
+.items-menu>a:hover{
+	color:#F2E62D;
+	text-decoration: underline;
+}
+
+.orbit{
+	height: 350px;
+}
+
+.orbit-container{
+	height: 100% !important;
+}
+/* Fin de Seccion de encabezado */

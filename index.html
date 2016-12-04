@@ -11,14 +11,16 @@
   <body>
     <header>
       <div class="row">
-        <img src="img/Logotipo.png" alt="Prepa ISELAC">
-        <p>(753) 537 67 63</p>
-        <a href="mailto:dirrecion@ceedi.edu.mx">dirrecion@ceedi.edu.mx</a>
-        <a href="#">FaceBook</a>
-        <address>Av. Río Basas No. 7-B Col. Primer Sector de Fidelac, Cd. Lázaro Cárdenas, Mich. C.P. 60950</address>
+        <img class="small-4 encabezado-logotipo" src="img/Logotipo.png" alt="Prepa ISELAC">
+        <div class="small-8">
+          <p>(753) 537 67 63</p>
+          <a href="mailto:dirrecion@ceedi.edu.mx">dirrecion@ceedi.edu.mx</a>
+          <a href="#">FaceBook</a>
+          <address>Av. Río Basas No. 7-B Col. Primer Sector de Fidelac, Cd. Lázaro Cárdenas, Mich. C.P. 60950</address>
+        </div>
       </div>
-      <div class="row">
-        <ul>
+      <div class="row encabezado-menu">
+        <ul class="menu align-spaced">
           <li class="items-menu"><a href="#">Iselac</a></li>
           <li class="items-menu"><a href="#">Oferta Académica</a></li>
           <li class="items-menu"><a href="#">Ingreso</a></li>
@@ -29,14 +31,27 @@
       </div>
     </header>
     <div class="row">
-      <img src="img/Home_Slider01.jpg" alt="Slider Home">
-      <img src="img/Home_Slider02.jpg" alt="Slider Home">
-      <img src="img/Home_Slider03.jpg" alt="Slider Home">
+      <div class="orbit" aria-label="Slider_Prepa" data-orbit>
+        <ul class="orbit-container">
+          <button class="orbit-previous"><span class="show-for-sr">Anterio Lamina</span>&#10216;&#xFE0E;</button>
+          <button class="orbit-next"><span class="show-for-sr">Siguiente Lamina</span>&#10217;&#xFE0E;</button>
+          
+          <li class="is-active orbit-slide">
+            <img class="orbit-image" src="img/Home_Slider01.jpg" alt="Slider Home">
+          </li>
+          <li class="orbit-slide">
+            <img class="orbit-image" src="img/Home_Slider02.jpg" alt="Slider Home">
+          </li>
+          <li class="orbit-slide">
+            <img class="orbit-image" src="img/Home_Slider03.jpg" alt="Slider Home">
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="row">
       <h1>Iselac <strong>Centro Educativo</strong></h1>
       <p>Es una preparatoria con Carrera Técnica en Operacíon Aduanal</p>
-      logoSEP
+      <img src="img/logo_sep-01.png" alt="Secretaría de Educación Pública">
       <p>Todos nuestros programaas cuentan con validez oficial ante la SEP</p>
     </div>
     <div class="row">
@@ -78,6 +93,7 @@
       </ul>
     </div>
     <footer>
+      <div class="row">
         <address>Av. Río Basas No. 7-B Col. Primer Sector de Fidelac, Cd. Lázaro Cárdenas, Mich. C.P. 60950</address>
         <p>(753) 537 67 63</p>
         <a href="mailto:dirrecion@ceedi.edu.mx">dirrecion@ceedi.edu.mx</a>
@@ -85,6 +101,7 @@
         <a href="#"><img src="img/Footer_Aduana.png" alt="Aduana México"></a>
         <a href="#"><img src="img/Footer_PortC.png" alt="Port Communty"></a>
         <a href="#"><img src="img/Footer_LZC.png" alt="API Lázaro Cárdenas"></a>
+      </div>
     </footer>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
