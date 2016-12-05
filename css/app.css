@@ -32,10 +32,44 @@ footer{
 }
 
 .orbit{
-	height: 350px;
+	height: 333px;
 }
 
 .orbit-container{
 	height: 100% !important;
 }
 /* Fin de Seccion de encabezado */
+
+.cuadro-sep{
+	background-color: #EEEEEE;
+}
+
+.titulo-prinical{
+	color: #1A80B9;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.titulo-prinical>strong{
+	color: #082D43;
+	text-transform: uppercase;
+	display: block;
+}
+
+.slogan-principal{
+	color:#636362;
+	width: 70%;
+	margin: 0 auto 3em auto;
+}
+
+.slogan-secundario{
+	color:#082D43;
+}
+
+.iconos{
+	width: 150px;
+}
+
+.seccion_iconos{
+	background-color: #0C2D43;
+}
