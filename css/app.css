@@ -40,8 +40,12 @@ footer{
 }
 /* Fin de Seccion de encabezado */
 
-.cuadro-sep{
+.cuadro-sep, .seccion_opciones{
 	background-color: #EEEEEE;
+}
+
+.seccion_opciones{
+	color:#082D43;
 }
 
 .titulo-prinical{
