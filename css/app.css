@@ -6,8 +6,9 @@ header{
 	color:#646362;
 }
 
-footer{
+footer>div{
 	background-color: #1980B9;
+	color:white;
 }
 
 /*Seccion de encabezado*/
@@ -91,4 +92,23 @@ footer{
 .imagen-barco{
 	width: 100%;
 	height: 250px;
+}
+
+.enlaces-logo{
+	width: 100px;
+	margin-left: 2em;
+}
+
+.fi-mobile:before, .fi-mail:before, .fi-social-facebook:before, .fi-plus:before{
+	font-size: 1.2em;
+	color:#1980B9;
+	border: 2px solid #1980B9;
+	border-radius: 50%;
+	padding: .2em;
+}
+
+.fi-mobile:before{
+	font-size: 1.4em;
+	padding: .1em .3em;
+
 }
