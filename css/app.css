@@ -48,7 +48,7 @@ footer>div{
 	color:white;
 }
 
-.items-menu>a:hover,.encabezado-correo>a:hover{
+.active,.items-menu>a:hover,.encabezado-correo>a:hover{
 	color:#F2E62D;
 	text-decoration: underline;
 }
@@ -185,9 +185,14 @@ footer>div{
 	margin-bottom: 3em;
 }
 
+.titulo-segundo-iselac{
+	color:#1970BC;
+	margin: 1em 0;
+}
+
 .seccion_iconos-iselac{
 	background-color: #0C2D43;
-	height: 250px;
+	height: 350px;
 }
 
 .seccion_iconos-iselac>div{
@@ -196,6 +201,22 @@ footer>div{
 
 .seccion_iconos-iselac>div>img{
 	position: absolute;
-	top:-135px;
+	top:-150px;
+}
+
+.beneficios-iselac-letreros{
+	color:#1970BC;
 }
 /* Fin Estilos de seccion de ISELAC*/
+
+/*Estilos de la seccion de Oferta Academica*/
+
+.oferta-titulo{
+	color:#1970BC;
+}
+
+.seccion_prepa,.seccion_carrera{
+	color:#50504F;
+}
+
+/*Fin Estilos de la seccion de Oferta Academica*/
