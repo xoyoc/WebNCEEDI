@@ -18,6 +18,10 @@ footer>div{
 	font-family: 'Exo 2', sans-serif !important;
 }
 
+.fondo-grisClaro{
+	background-color: #EAEAEA;
+}
+
 /*Seccion de encabezado*/
 
 .encabezado-menu{
@@ -222,3 +226,15 @@ footer>div{
 }
 
 /*Fin Estilos de la seccion de Oferta Academica*/
+
+/*Estilos de la seccion de requicitos*/
+
+.seccion_requicitos{
+	color:#50504F;
+}
+
+.fi-info:before{
+	font-size: 3em;
+}
+
+/*Fin de Estilos de la seccion de requicitos*/
