@@ -238,3 +238,40 @@ footer>div{
 }
 
 /*Fin de Estilos de la seccion de requicitos*/
+
+/*Estilos de la seccion de Ingreso*/
+
+.ingreso-icono-importante, .ingreso-importante{
+	display: inline-block;
+}
+
+.ingreso-icono-importante{
+	margin: auto 2em;
+}
+
+.ingreso-importante{
+	width: 70%;
+	margin-top: 2em;
+}
+
+.accordion-title{
+	font-size: 1.5rem;
+}
+
+/*Fin Estilos de la seccion de Ingreso*/
+
+/*Estilos de seccion de Estudiantes*/
+
+.estudiantes-biblioteca,.estudiantes-cursos{
+	height: 300px;
+}
+
+.estudiantes-biblioteca{
+	background-color: #0C2334;
+}
+
+.estudiantes-cursos{
+	background-color: #6F6F6E;
+}
+
+/*Fin de la Estilos de seccion de Estudiantes*/
