@@ -287,3 +287,38 @@ footer>div{
 }
 
 /*Fin de la Estilos de seccion de Estudiantes*/
+
+/*Estilos de seccion de galeria*/
+/*Fin de Estilos de seccion de galeria*/
+
+/*Estilos de la seccion de contacto*/
+
+.contacto-formulario{
+	color:#59534F;
+	margin-top: 1em;
+}
+
+.contacto-ubicacion{
+	color: #0A2334;
+	margin-bottom: 1em;
+}
+
+.contacto-direccion{
+	margin-top: 2em;
+	margin-left: 2em;
+	font-size: 1.2em;
+	width: 85%;
+}
+
+.contacto-telefono{
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.contacto-email>a{
+	color:white;
+	margin-left: 1em;
+}
+
+/*Fin de Estilos de la seccion de contacto*/
