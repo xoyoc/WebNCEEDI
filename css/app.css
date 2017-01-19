@@ -179,6 +179,11 @@ footer>div{
 	padding: .3em;
 }
 
+.fi-plus:before{
+	color: white;
+	background-color: #1980B9;
+}
+
 .fi-mobile:before{
 	font-size: 1.4em;
 	padding: .1em .3em;
@@ -216,8 +221,17 @@ footer>div{
 	top:-150px;
 }
 
+.seccion_iconos-iselac>div>img:last-child{
+	top:-180px;
+}
+
 .beneficios-iselac-letreros{
 	color:#1970BC;
+}
+
+.seccion_opciones-iselac-foto{
+	height: 100%;
+	width: 100%;
 }
 /* Fin Estilos de seccion de ISELAC*/
 
